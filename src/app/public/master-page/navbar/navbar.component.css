@@ -1,0 +1,15 @@
+.wrapper input:focus{
+    background-color: #f7554a;   
+    color: white;
+    font: 200;
+}
+
+.wrapper input{
+    width: 200px;
+    
+}
+
+nav{
+    background-color: #F44336;
+}
+
