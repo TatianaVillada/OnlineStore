@@ -4,6 +4,10 @@
     font: 200;
 }
 
+
+.wrapper #icon-menu{
+    font-size: 30px;
+}
 .wrapper input{
     width: 200px;
     
