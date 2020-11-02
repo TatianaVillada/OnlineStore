@@ -1,0 +1,85 @@
+.carousel-inner img {
+    width: 100%;
+}
+
+.card {
+    width: 100%;
+}
+
+.carousel-control-prev .carousel-control-prev-icon{
+    
+    background-color: rgb(247, 43, 43);  
+}
+
+.carousel-control-next .carousel-control-next-icon{
+    
+    background-color: rgb(247, 43, 43);  
+}
+
+
+.carousel-indicators li{
+    display: inline-block; 
+    width: 10px; 
+    height: 10px; 
+    margin: 1px;  
+    cursor: pointer; 
+    border: 5px solid rgb(241, 97, 30); 
+    border-radius: 15px; 
+}
+
+.card {
+    
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 180px 40px 80px;
+    grid-template-areas: "image" "text" "stats";
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: roboto;
+    text-align: center;
+    position: relative;
+    top: -150px;
+    z-index: 2;
+}
+
+.card-image {
+    grid-area: image;
+    background: url("img.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+
+.card-stats {
+    grid-area: stats; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgb(243, 35, 29);
+}
+
+.card-stats .stat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding:10px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+  
+.card {
+  
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:50px;
+ }
+

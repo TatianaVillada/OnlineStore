@@ -14,6 +14,11 @@
 }
 
 nav{
-    background-color: #F44336;
+    background-color: #f7241d;
+}
+
+.navbar-nav #Home{
+    float: right;
+    background-color: #fc4437;
 }
 

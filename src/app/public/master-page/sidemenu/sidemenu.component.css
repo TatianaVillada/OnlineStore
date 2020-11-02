@@ -4,11 +4,54 @@
 }
 
 
-.wrapper .brand-link{
-    background-color: #F44336;
+#menudes{
+    display: flex;
 }
+
+#Logo {
+    height: 58px; 
+    display: flex;
+}
+
+#Logo span{
+    font-size: 30px; 
+    padding-left: 10px; 
+    text-align: center;
+
+}
+
+#items i{
+    font-size: 15px;
+    color: #1d3144;
+}
+
+#items p{
+    color: #ffffff;
+}
+aside {
+    background-color: #f7241d;
+}
+
+#menudes span{
+    font-size: 23px;
+    color: white;
+}
+
 
 #menudes {
     background-color: #F44336;
 }
+
+#menudespl #menudes{
+
+    background-color: #fc4437;
+}
+
+#Logonav{
+    background-color: #1d3144;
+}
+
+
+
+
 
