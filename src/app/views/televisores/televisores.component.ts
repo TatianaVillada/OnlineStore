@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-televisores',
   templateUrl: './televisores.component.html',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TelevisoresComponent implements OnInit {
 
-  constructor() { }
+  
 
   ngOnInit(): void {
+    
   }
 
 }
+
+
