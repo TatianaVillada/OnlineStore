@@ -1,26 +1,28 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
+import { HomeComponent } from './public/home/home/home.component';
 import { AppComponent } from './app.component';
-import { DefaultComponent } from './public/home/default/default.component';
 import { NavbarComponent } from './public/master-page/navbar/navbar.component';
 import { SidemenuComponent } from './public/master-page/sidemenu/sidemenu.component';
 import { FooterComponent } from './public/master-page/footer/footer.component';
 import { HeaderComponent } from './public/master-page/header/header.component';
-
+import { TelevisoresComponent } from './views/televisores/televisores.component';
+ 
 @NgModule({
   declarations: [
+    HomeComponent,
     AppComponent,
-    DefaultComponent,
     NavbarComponent,
     SidemenuComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    TelevisoresComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

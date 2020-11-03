@@ -1,9 +1,6 @@
 .carousel-inner img {
     width: 100%;
-}
 
-.card {
-    width: 100%;
 }
 
 .carousel-control-prev .carousel-control-prev-icon{
@@ -27,59 +24,214 @@
     border-radius: 15px; 
 }
 
-.card {
-    
-    display: grid;
-    grid-template-columns: 300px;
-    grid-template-rows: 180px 40px 80px;
-    grid-template-areas: "image" "text" "stats";
-    border-radius: 18px;
-    background: white;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
-    font-family: roboto;
-    text-align: center;
-    position: relative;
-    top: -150px;
-    z-index: 2;
+.carousel-indicators{
+    top: 50px;
 }
 
-.card-image {
-    grid-area: image;
-    background: url("img.jpg");
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    background-size: cover;
-}
-
-
-.card-stats {
-    grid-area: stats; 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background: rgb(243, 35, 29);
-}
-
-.card-stats .stat {
+.container{
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    color: white;
-    padding:10px;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+#card2{
+    top: -410px;
+    left: 360px;
+}
+
+#card3{
+    top: -690px;
+    left: 720px;
+}
+
+
+.card{
+    height: 250px;
+    width: 300px;
+    margin: 20 0px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    border-radius: 18px;
+    background: white;
+    top: -130px;
+    z-index: 3;
 }
 
 .card:hover {
     transform: scale(1.1);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
-  
+
 .card {
   
     transition: 0.5s ease;
     cursor: pointer;
-    margin:50px;
+    margin:30px;
  }
 
+.card .img{
+    height: 200px;
+    width: 100%;
+}
+
+.card .img img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card .top-text{
+    padding: 8px;
+    background: rgb(29, 49, 68);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.card .top-text .name{
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:978px){
+
+    .card{
+        max-width: 400px;
+        margin: 0px;    
+    }
+
+    .container{
+        padding: 0 0px;
+    }
+
+}
+
+#container2 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: -110px;
+    text-align: center;
+    padding-left: 150px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.radius {
+    background: linear-gradient(to right, #f74904, #0f355f);
+    border-radius: 50%;
+    color: #004898;
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    width: 160px;
+    height: 160px;
+}
+
+.radius img {
+    background: #fff;
+    display: block;
+    padding: 3%;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.radius-catalogo {
+    color: #004898;
+    display: inline-block;
+    text-decoration: none;
+    width: 160px;
+    height: 160px;
+}
+
+.radius-catalogo img {
+    background: #fff;
+    display: block;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    margin-left: -11px;
+}
+
+
+.contenedor-boton {
+    text-align: center;
+    margin-bottom: 3%;
+    margin-right: 60px;
+    width: 18%;
+    display: inline-block;
+    vertical-align: top;
+  
+}
+
+.contenedor-boton-catalogo {
+    text-align: center;
+    margin-bottom: 3%;
+    margin-right: 60px;
+    width: 18%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.textos-botones {
+    font-size: 14px;
+    color: #074995;
+    font-weight: 600;
+    padding: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .scroll-horizontal-botones {
+        overflow-x: auto;
+    }
+    .contenedor-scroll-horizontal {
+        width: 900px;
+    }
+
+    #container2{
+        padding-left: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 540px) {
+    .contenedor-boton {
+        width: 200px;
+       
+    }
+    .radius img {
+        background: #fff;
+        display: block;
+        padding: 3%;
+        border-radius: 50%;
+        width: 100%;
+    }
+    .textos-botones {
+        font-size: 14px;
+        white-space: break-spaces;
+    }
+    .contenedor-scroll-horizontal {
+        width: 100%;
+        overflow: scroll;
+        white-space: nowrap;
+    }
+
+    .contenedor-boton-catalogo {
+        width: 43%;
+    }
+
+
+}
