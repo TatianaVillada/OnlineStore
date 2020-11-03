@@ -8,6 +8,7 @@
     display: flex;
 }
 
+
 #Logo {
     height: 58px; 
     display: flex;
@@ -22,14 +23,14 @@
 
 #items i{
     font-size: 15px;
-    color: #1d3144;
+    color: #5d7388;
 }
 
 #items p{
     color: #ffffff;
 }
 aside {
-    background-color: #f7241d;
+    background-color: #022446;
 }
 
 #menudes span{
@@ -40,15 +41,16 @@ aside {
 
 #menudes {
     background-color: #F44336;
+    border-radius: 0px;
 }
 
 #menudespl #menudes{
 
-    background-color: #fc4437;
+    background-color:rgb(58, 84, 109);
 }
 
 #Logonav{
-    background-color: #1d3144;
+    background-color: #504df5;
 }
 
 

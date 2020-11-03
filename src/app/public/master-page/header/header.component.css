@@ -5,12 +5,12 @@
 
 .carousel-control-prev .carousel-control-prev-icon{
     
-    background-color: rgb(247, 43, 43);  
+    background-color: rgb(43, 80, 247);  
 }
 
 .carousel-control-next .carousel-control-next-icon{
     
-    background-color: rgb(247, 43, 43);  
+    background-color: rgb(19, 97, 241);  
 }
 
 
@@ -20,7 +20,7 @@
     height: 10px; 
     margin: 1px;  
     cursor: pointer; 
-    border: 5px solid rgb(241, 97, 30); 
+    border: 5px solid rgb(30, 97, 241); 
     border-radius: 15px; 
 }
 
@@ -83,7 +83,7 @@
 
 .card .top-text{
     padding: 8px;
-    background: rgb(29, 49, 68);
+    background: rgb(9, 41, 73);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
@@ -128,7 +128,7 @@
 
 
 .radius {
-    background: linear-gradient(to right, #f74904, #0f355f);
+    background: linear-gradient(to right, #043df7, #9699a3);
     border-radius: 50%;
     color: #004898;
     display: inline-block;

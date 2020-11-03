@@ -8,6 +8,10 @@ import { SidemenuComponent } from './public/master-page/sidemenu/sidemenu.compon
 import { FooterComponent } from './public/master-page/footer/footer.component';
 import { HeaderComponent } from './public/master-page/header/header.component';
 import { TelevisoresComponent } from './views/televisores/televisores.component';
+import { SonidoComponent } from './views/sonido/sonido.component';
+import { PortatilesComponent } from './views/portatiles/portatiles.component';
+import { VideojuegosComponent } from './views/videojuegos/videojuegos.component';
+import { RealidadVirtualComponent } from './views/realidad-virtual/realidad-virtual.component';
  
 @NgModule({
   declarations: [
@@ -18,6 +22,10 @@ import { TelevisoresComponent } from './views/televisores/televisores.component'
     FooterComponent,
     HeaderComponent,
     TelevisoresComponent,
+    SonidoComponent,
+    PortatilesComponent,
+    VideojuegosComponent,
+    RealidadVirtualComponent,
   ],
   imports: [
     BrowserModule,

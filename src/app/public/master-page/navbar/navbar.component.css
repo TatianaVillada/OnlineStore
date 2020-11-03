@@ -1,7 +1,18 @@
 .wrapper input:focus{
-    background-color: #f7554a;   
-    color: white;
+    background-color: rgb(58, 84, 109);
     font: 200;
+    color: white;
+}
+
+#buscar{
+    position: relative;
+    left: 150px;
+    width: 400px;
+}
+
+#contacto{
+    position: relative;
+    left: 100px;
 }
 
 
@@ -14,13 +25,25 @@
 }
 
 nav{
-    background-color: #f7241d;
+    background-color: #092949;
 }
 
 .navbar-nav #Home{
     float: right;
-    background-color: #fc4437;
+    background-color: #504df5;
+    position: relative;
+    left: 10px;
 }
+
+.navbar-nav #contacto{
+    float: right;
+    background-color: #504df5;
+    position: relative;
+    left: 10px;
+}
+
+
+
 
 
 
