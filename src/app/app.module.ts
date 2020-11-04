@@ -12,6 +12,7 @@ import { SonidoComponent } from './views/sonido/sonido.component';
 import { PortatilesComponent } from './views/portatiles/portatiles.component';
 import { VideojuegosComponent } from './views/videojuegos/videojuegos.component';
 import { RealidadVirtualComponent } from './views/realidad-virtual/realidad-virtual.component';
+import { ContactoComponent } from './views/contacto/contacto.component';
  
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { RealidadVirtualComponent } from './views/realidad-virtual/realidad-virt
     PortatilesComponent,
     VideojuegosComponent,
     RealidadVirtualComponent,
+    ContactoComponent,
   ],
   imports: [
     BrowserModule,
