@@ -4,10 +4,36 @@
     color: white;
 }
 
-#buscar{
-    position: relative;
-    left: 150px;
-    width: 400px;
+
+input:focus{
+    background-color: tomato;
+    border-color: tomato;
+    border: 0;
+}
+
+input{
+    border: 0;
+    margin-left: 200px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(44, 53, 63); 
+    margin-right: 10px;
+    color: white;
+}
+
+.nav-item .btn{
+    border-radius: 0px;
+    background: linear-gradient(#514fc7,#335297,#3b4ce9);
+    color: white;
+}
+
+form button:hover{
+    background-color:#34479c;
+}
+
+form:focus{
+    border-color: transparent;
+    background-color: rgb(44, 53, 63);
 }
 
 #contacto{
@@ -40,6 +66,8 @@ nav{
     position: relative;
     left: 10px;
 }
+
+
 
 
 
