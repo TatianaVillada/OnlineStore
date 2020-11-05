@@ -6,6 +6,7 @@ import { SonidoComponent } from './views/sonido/sonido.component';
 import { VideojuegosComponent } from './views/videojuegos/videojuegos.component';
 import { RealidadVirtualComponent } from './views/realidad-virtual/realidad-virtual.component';
 import { ContactoComponent } from './views/contacto/contacto.component';
+import { CarritoComprasComponent } from './views/carrito-compras/carrito-compras.component';
 import { AppComponent } from './app.component';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'Videojuegos', component: VideojuegosComponent},
   { path: 'RealidadVirtual', component: RealidadVirtualComponent},
   { path: 'Contacto', component: ContactoComponent},
+  { path: 'Carrito', component: CarritoComprasComponent},
   { path: '',   redirectTo: '/Home', pathMatch: 'full' },
 ];
 

@@ -4,17 +4,8 @@
     color: white;
 }
 
-
-input:focus{
-    background-color: tomato;
-    border-color: tomato;
-    border: 0;
-}
-
 input{
     border: 0;
-    margin-left: 200px;
-    width: 300px;
     border-radius: 10px;
     background-color: rgb(44, 53, 63); 
     margin-right: 10px;
@@ -31,31 +22,18 @@ form button:hover{
     background-color:#34479c;
 }
 
-form:focus{
-    border-color: transparent;
-    background-color: rgb(44, 53, 63);
-}
-
-#contacto{
-    position: relative;
-    left: 100px;
-}
-
 
 .wrapper #icon-menu{
     font-size: 30px;
 }
-.wrapper input{
-    width: 200px;
-    
-}
+
 
 nav{
     background-color: #092949;
 }
 
 .navbar-nav #Home{
-    float: right;
+
     background-color: #504df5;
     position: relative;
     left: 10px;
@@ -63,8 +41,7 @@ nav{
 
 .navbar-nav #contacto{
     background-color: #504df5;
-    position: relative;
-    left: 10px;
+    
 }
 
 

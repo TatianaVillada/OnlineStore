@@ -13,6 +13,7 @@ import { PortatilesComponent } from './views/portatiles/portatiles.component';
 import { VideojuegosComponent } from './views/videojuegos/videojuegos.component';
 import { RealidadVirtualComponent } from './views/realidad-virtual/realidad-virtual.component';
 import { ContactoComponent } from './views/contacto/contacto.component';
+import { CarritoComprasComponent } from './views/carrito-compras/carrito-compras.component';
  
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ContactoComponent } from './views/contacto/contacto.component';
     VideojuegosComponent,
     RealidadVirtualComponent,
     ContactoComponent,
+    CarritoComprasComponent,
   ],
   imports: [
     BrowserModule,
